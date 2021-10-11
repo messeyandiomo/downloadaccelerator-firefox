@@ -38,13 +38,6 @@
     {
       "matches": ["*://*/*"]
     }
-  ],
-  
-  
-  "browser_specific_settings": {
-    "gecko": {
-      "update_url": "https://github.com/messey-bilal/downloadaccelerator-firefox/blob/main/manifest.json"
-    }
-  }
+  ]
 
 }
