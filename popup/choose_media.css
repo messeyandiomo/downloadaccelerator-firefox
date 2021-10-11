@@ -1,0 +1,58 @@
+html, body {
+  width: 500px;
+  font-family: monospace;
+}
+
+.hidden, .infosToSent {
+  display: none;
+}
+
+.button {
+  /*margin: 3% auto;*/
+  padding: 4px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.button:hover {
+  background-color: #f4f4f4;
+}
+
+/*.media {
+  display: inline-flex;
+  flex-direction: row;
+}*/
+
+.reset {
+  background-color: #FBFBC9;
+}
+
+.reset:hover {
+  background-color: #EAEA9D;
+}
+
+.properties {
+  font-size:0.80em;
+  color: gray;
+}
+
+.image {
+  width: 60px;
+  height: 45px;
+}
+
+.infos{
+  width: 420px;
+  display: inline-block;
+  padding: 4px;
+}
+
+.title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-size: 1.2em;
+}
