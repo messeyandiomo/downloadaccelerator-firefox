@@ -1,0 +1,43 @@
+{
+
+  "manifest_version": 2,
+  "name": "Download Accelerator",
+  "version": "1.1",
+
+  "description": "Adds an icon to download audio or video file from webpages.",
+  
+
+  "icons": {
+    "48": "icons/accelerator.jpg"
+  },
+
+
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "webNavigation",
+    "*://*/*",
+    "webRequest",
+    "contextMenus"
+  ],
+
+
+  "browser_action": {
+    "default_icon": "icons/accelerator-16.jpg",
+    "default_title": "DownloadAccelerator",
+    "default_popup": "popup/choose_media.html"
+  },
+
+
+  "background": {
+    "scripts": ["background-script.js"]
+  },
+
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"]
+    }
+  ]
+
+}
